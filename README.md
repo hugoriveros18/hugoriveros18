@@ -3,11 +3,11 @@
 
 - 🔭 I’m currently working at [ITGlobers](https://itglobers.com/) focused on e-commerce development.
 
-- 🌱 I’m currently learning **artificial intelligence and machine learning**
+- 🌱 I’m currently learning **artificial intelligence and machine learning**.
 
 - 👨‍💻 You can learn more about me on my personal website [https://hugoriveros.netlify.app/](https://hugoriveros.netlify.app/)
 
-- 📫 How to reach me **hugoriverosfajardo@gmail.com**
+- 📫 How to reach me: **hugoriverosfajardo@gmail.com**.
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
