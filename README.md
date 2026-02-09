@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Hugo Riveros Fajardo</h1>
 <h3 align="center">A passionate Frontend Developer from Colombia</h3>
 
-- 🔭 I’m currently working at [ITGlobers](https://itglobers.com/) focused on e-commerce development.
+- 🔭 I’m currently working at [Yuno](https://y.uno/), a fintech company transforming how businesses manage and scale global payments.
 
 - 📫 How to reach me: **hugoriverosfajardo@gmail.com**.
 
