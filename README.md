@@ -58,28 +58,41 @@ Promoted to Mid-level Frontend Developer in April 2025.
 
 ## How I work
 
-I use AI-assisted workflows for research, planning, implementation, and documentation. At Yuno, I worked with Claude Code daily and built reusable skills to streamline recurring tasks. I'm also exploring Codex.
+I combine engineering judgment with AI-assisted development. At Yuno, I used Claude Code daily to investigate problems, plan changes, implement solutions, and support code review. I built reusable skills for recurring tasks, and I'm also exploring Codex.
 
-I keep technical decisions, code review, and validation in the loop, and check changes before production.
+My workflow starts with understanding the task myself. I give the AI the intended outcome and relevant constraints, ask it to propose a reasoned approach, and review that plan before implementation.
 
 <details>
-<summary>Explore my engineering workflow</summary>
+<summary>Explore my AI-assisted engineering workflow</summary>
 
 ```mermaid
-flowchart LR
-    A["Understand the problem"] --> B["Plan the approach"]
-    B --> C["Implement"]
-    C --> D["Review and validate<br/>Code review subagent support"]
-    D --> E["Document and share"]
-    D -->|"Refine"| C
+flowchart TD
+    A["Understand the task and gather context"] --> B["Share context, goals, and constraints"]
+    B --> C["AI proposes a reasoned change plan"]
+    C --> D["Review, challenge, and refine the plan"]
+    D -->|"Approve"| E["Implement changes and tests"]
+    D -->|"Revise"| C
+    E --> F["Test and assess findings from a code review subagent"]
+    F -->|"Corrections needed"| C
+    F -->|"Validation passes"| G["Create PR and complete required checks"]
+    G --> H["Deploy to production"]
+    H --> I["Monitor production logs"]
+    I -->|"Issues detected"| C
 ```
 
-- Understand the context, existing behavior, and integration boundaries.
-- Plan changes with maintainability and backward compatibility in mind.
-- Use agents and skills for focused research and implementation tasks.
-- Use a dedicated code review subagent to surface change-related risks, potential security issues, and edge cases.
-- Assess the subagent's findings, review the code, and validate behavior with appropriate tests and environment checks.
-- Document decisions and feed useful context back into the team's knowledge.
+1. Understand the task and gather context. I review the problem, intended outcome, acceptance criteria, dependencies, and constraints myself. This helps me identify inconsistencies and supply context that the AI may not infer from the code or available documentation.
+
+2. Share the relevant context. I provide Jira tasks, relevant Slack discussions, public or internal documentation, the repositories involved, and additional knowledge about the system. I make the intended outcome clear while leaving room for the AI to propose implementation approaches.
+
+3. Request a reasoned change plan. I ask the AI to explain its proposed decisions and tradeoffs, identify assumptions or missing information, and account for compatibility and validation. I generally describe what needs to be achieved rather than prescribe how to implement it, unless a known constraint requires a particular approach.
+
+4. Review and approve the plan. I question decisions, check the reasoning against my understanding of the system, and refine the approach when needed. Once I approve the plan, the AI proceeds with implementation and the corresponding tests.
+
+5. Validate and seek a second review perspective. I run the appropriate tests and environment checks, and use a dedicated code review subagent with a separate context to identify change-related risks, potential security issues, and edge cases. I assess its findings myself. When corrections are needed, I return to planning, review the proposed fix, and repeat implementation and validation.
+
+6. Move through PR and release. Once validation passes, I create the pull request, complete the required reviews and checks, and proceed through the deployment process.
+
+7. Monitor production behavior. After deployment, I review production logs to check that the changes behave as expected and identify errors, unexpected behavior, or integration issues. If monitoring reveals a problem, I investigate it and return to the planning and validation cycle to address it.
 
 </details>
 
