@@ -1,16 +1,41 @@
-<h1 align="center">Hi 👋, I'm Hugo Riveros Fajardo</h1>
-<h3 align="center">A passionate Frontend Developer from Colombia</h3>
+<h1 align="center">Hi, I'm Hugo Riveros 👋</h1>
+<h3 align="center">Frontend Software Engineer · React · TypeScript · VTEX IO</h3>
 
-- 🔭 I’m currently working at [Yuno](https://y.uno/), a fintech company transforming how businesses manage and scale global payments.
-
-- 📫 How to reach me: **hugoriverosfajardo@gmail.com**.
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://twitter.com/hugoriverosf18" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="hugoriverosf18" height="30" width="40" /></a>
-<a href="https://linkedin.com/in/hugo-felipe-riveros-fajardo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="hugo-felipe-riveros-fajardo" height="30" width="40" /></a>
-<a href="https://instagram.com/hugo.riverosfajardo" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="hugo.riverosfajardo" height="30" width="40" /></a>
+<p align="center">
+  I build scalable, high-performance e-commerce and checkout experiences, with a focus on fintech integrations, software quality, and AI-assisted engineering.
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://postman.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" alt="postman" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a> <a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+<p align="center">
+  <a href="https://hugoriverosdev.vercel.app">Portfolio</a> ·
+  <a href="https://linkedin.com/in/hugo-felipe-riveros-fajardo">LinkedIn</a> ·
+  <a href="mailto:hugoriverosfajardo@gmail.com">Email</a>
+</p>
+
+<p align="center"><strong>Currently open to frontend engineering opportunities</strong> · Bogotá, Colombia</p>
+
+## Selected Experience
+
+### Frontend Software Engineer · Yuno
+**Feb 2026 – Oct 2026**
+
+- Built checkout experiences and payment integrations, including Apple Pay, Google Pay, and advanced VTEX capabilities such as split payments and subscriptions.
+- Improved payment connector reliability and contributed to the WooCommerce SDK's publication in the official WordPress Plugin Directory.
+- Developed AI-assisted engineering workflows and internal tools for documentation, payment-flow visualization, Datadog monitoring, and incident debugging.
+- Applied a multi-stage quality process with Vitest, TypeScript checks, Playwright end-to-end tests, and performance benchmarks.
+
+### Frontend Developer · ITGlobers
+**Oct 2022 – Feb 2026**
+
+- Built and optimized e-commerce stores and custom applications for clients across Latin America, Europe, and Asia.
+- Improved storefront performance, responsiveness, and user experience across key shopping flows.
+
+## Core Technologies
+
+- **Frontend:** React · Next.js · TypeScript · JavaScript · Tailwind CSS · Sass
+- **E-commerce & payments:** VTEX IO · Faststore · WooCommerce · Checkout integrations
+- **Testing & observability:** Vitest · Playwright · Jest · Datadog
+- **AI-assisted engineering:** Claude Code · Agentic workflows · Custom AI skills and tools
+
+## Languages
+
+Spanish — Native · English — C1
