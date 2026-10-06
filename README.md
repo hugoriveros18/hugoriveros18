@@ -69,7 +69,7 @@ I keep technical decisions, code review, and validation in the loop, and check c
 flowchart LR
     A["Understand the problem"] --> B["Plan the approach"]
     B --> C["Implement"]
-    C --> D["Review and validate"]
+    C --> D["Review and validate<br/>Code review subagent support"]
     D --> E["Document and share"]
     D -->|"Refine"| C
 ```
@@ -77,7 +77,8 @@ flowchart LR
 - Understand the context, existing behavior, and integration boundaries.
 - Plan changes with maintainability and backward compatibility in mind.
 - Use agents and skills for focused research and implementation tasks.
-- Review code and validate behavior with appropriate tests and environment checks.
+- Use a dedicated code review subagent to surface change-related risks, potential security issues, and edge cases.
+- Assess the subagent's findings, review the code, and validate behavior with appropriate tests and environment checks.
 - Document decisions and feed useful context back into the team's knowledge.
 
 </details>
